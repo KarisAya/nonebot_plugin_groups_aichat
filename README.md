@@ -57,13 +57,13 @@ plugins = [
 
 # 配置
 
-具体配置方法请参考 [clovers-AIchat](https://github.com/clovers-project/clovers-AIchat)
+具体配置方法请参考 [clovers-aichat](https://github.com/clovers-project/clovers-aichat)
 
 ```env
-NONEBOT_PLUGIN_GROUPS_AICHAT_TIMEOUT = 600
-NONEBOT_PLUGIN_GROUPS_AICHAT_MEMORY = 20
-NONEBOT_PLUGIN_GROUPS_AICHAT_PROMPT_SYSTEM = '你的名字是枫枫，你可以自由回答问题。'
-NONEBOT_PLUGIN_GROUPS_AICHAT_CONFIG_LIST = '
+GROUPS_AICHAT_TIMEOUT = 600
+GROUPS_AICHAT_MEMORY = 20
+GROUPS_AICHAT_STYLE_PROMPT = '你的名字是枫枫，你可以自由回答问题。'
+GROUPS_AICHAT_CONFIG_LIST = '
 [
 	{
 		"key": "hunyuan",
@@ -75,13 +75,3 @@ NONEBOT_PLUGIN_GROUPS_AICHAT_CONFIG_LIST = '
 ]
 '
 ```
-
-# 联系
-
-如有建议，bug 反馈等可以加群
-
-机器人 bug 研究中心（闲聊群） 744751179
-
-永恒之城（测试群） 724024810
-
-![群号](https://github.com/KarisAya/clovers/blob/master/%E9%99%84%E4%BB%B6/qrcode_1676538742221.jpg)
